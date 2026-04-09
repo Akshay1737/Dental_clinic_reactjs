@@ -51,7 +51,7 @@ It focuses on conversion-friendly design, smooth animations, and WhatsApp-first 
 ## Quick Start
 ```bash
 # 1) Clone
-git clone https://github.com/<your-username>/dentist-final.git
+git clone https://github.com/Akshay1737/Dental_clinic_reactjs.git
 
 # 2) Enter project
 cd dentist-final
@@ -104,18 +104,10 @@ Update this number in:
 
 ## Deployment
 This project can be deployed easily on:
-- Vercel
-- Netlify
-- GitHub Pages (with a Vite-compatible workflow)
+- Surge
 
-## Authoring Notes
-If you want this README to show repository-specific links and stats, replace:
-- `<your-username>`
-- repository URL placeholders
 
-with your real GitHub username/repo after pushing.
 
----
 
 <div align="center">
 
