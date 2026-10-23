@@ -7,10 +7,10 @@ CREATE TABLE products (
     product_id INT AUTO_INCREMENT PRIMARY KEY,
     product_name VARCHAR(150) NOT NULL,
     description VARCHAR(500),
-    category VARCHAR(100),
+    category  INT,
     price DECIMAL(10, 2) NOT NULL,
     stock_quantity INT DEFAULT 0,
-    sku VARCHAR(50) UNIQUE,
+    sku  INT UNIQUE,
     is_available BOOLEAN DEFAULT TRUE,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
