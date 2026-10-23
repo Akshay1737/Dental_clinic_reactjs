@@ -9,6 +9,7 @@ CREATE TABLE products (
     description VARCHAR(500),
     category  INT,
     price DECIMAL(10, 2) NOT NULL,
+     prices INT NOT NULL,
     stock_quantity INT DEFAULT 0,
     sku  INT UNIQUE,
     is_available BOOLEAN DEFAULT TRUE,
